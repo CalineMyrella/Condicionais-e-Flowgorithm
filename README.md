@@ -10,10 +10,6 @@ Este repositório contém uma série de exercícios práticos focados no desenvo
 
 ##  Estrutura do Repositório
 
-Os arquivos estão organizados por temas e divididos em duas extensões:
-* `.fprg`: Arquivos de fluxograma do Flowgorithm.
-* `.alg`: Arquivos de pseudocódigo do VisuAlg.
-
 ### Exercícios Inclusos:
 
 | Atividade | Descrição |
