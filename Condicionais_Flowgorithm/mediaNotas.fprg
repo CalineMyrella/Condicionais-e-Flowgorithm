@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 08:51:40 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzgxOzIwMjYtMDQtMTQ7IjA4OjE1OjI5ICI7Mjg2Ng=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzgxOzIwMjYtMDQtMTQ7IjA4OjUxOjQwICI7MTsyOTY3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, nota1, nota2, nota3" type="Real" array="False" size=""/>
+            <output expression="&quot;digite a primeira nota&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;digite a segunda nota&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;digite a terceira nota&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <assign variable="media" expression="nota1 + nota2 + nota3 /3"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;aluno aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media&gt;=4">
+                        <then>
+                            <output expression="&quot;recupera&#231;&#227;o&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;aluno reprovado&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 09:22:12 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzgxOzIwMjYtMDQtMTQ7IjA5OjA1OjQ1ICI7Mjg2NA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzgxOzIwMjYtMDQtMTQ7IjA5OjIyOjEyICI7MTsyOTY1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Real" array="False" size=""/>
+            <output expression="&quot;digite a idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade&gt;=71">
+                <then>
+                    <output expression="&quot;voto opcional&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade&gt;=18">
+                        <then>
+                            <output expression="&quot;voto obrigat&#243;rio&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="idade&gt;=16">
+                                <then>
+                                    <output expression="&quot;voto opcional&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;n&#227;o &#233; possivel votar&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

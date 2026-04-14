@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 03:09:40 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzgxOzIwMjYtMDQtMTM7IjAyOjMzOjU3ICI7Mjg2MA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwNzgxOzIwMjYtMDQtMTM7IjAzOjA5OjQwICI7MTsyOTY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, largura, volume" type="Real" array="False" size=""/>
+            <output expression="&quot;digite a base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;digite a altura&quot;" newline="True"/>
+            <input variable="altura"/>
+            <output expression="&quot;digite a largura&quot;" newline="True"/>
+            <input variable="largura"/>
+            <assign variable="volume" expression="base * altura * altura"/>
+            <output expression="&quot;valor final&quot; &amp; volume" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
